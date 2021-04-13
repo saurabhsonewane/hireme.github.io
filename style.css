@@ -1,0 +1,113 @@
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-light {
+  background-color: transparent !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.navbar-toggler-icon{
+    color: white;
+    z-index: 1000;
+}
+
+.fa-bars{
+    color: white;
+}
+
+.head {
+  height: 100vh;
+  background-color: black;
+
+}
+
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+} 
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 80vh;
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  /* position: absolute; */
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  display: none;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+
+.btn-dark{
+    background-color: orangered;
+}
+
+.btn-dark:hover{
+    color: black;
+    background-color: white;
+}
+
+
+.contentarea{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.heading {
+    margin-top: 15rem;
+    color: orangered !important;
+}
+
+.btno{
+    margin-top: 12rem;
+}
+
+#btr:hover{
+    color: black;
+    background-color: white;
+}
